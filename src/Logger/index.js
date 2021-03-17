@@ -8,7 +8,7 @@ class Logger {
   }
 
   async writeLog(text) {
-    await fs.appendFile(this.logFilePath, text, 'utf8').catch(err => console.err(err));
+    await fs.appendFile(this.logFilePath, text, 'utf8').catch(err => console.error(err));
   }
 
    info(text) {
