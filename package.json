@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api for bseu schedule bot",
+  "main": "index.js",
+  "author": "SiranWeb <kirillg.web@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  }
+}
